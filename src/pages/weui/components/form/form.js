@@ -154,5 +154,5 @@ Component({
             return this.formValidator.addMethod(ruleName, method)
         }
     }
-})
-export default FormValidator
+});
+export default FormValidator;

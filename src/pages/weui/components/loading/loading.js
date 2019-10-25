@@ -77,4 +77,4 @@ Component({
             this._computedStyle(this.data.show, this.data.animated)
         }
     }
-})
+});

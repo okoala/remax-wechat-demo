@@ -93,4 +93,4 @@ Component({
       this.triggerEvent('back', {delta: data.delta}, {})
     }
   }
-})
+});

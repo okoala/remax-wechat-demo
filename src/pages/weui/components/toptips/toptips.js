@@ -56,7 +56,7 @@ Component({
                     this.setData({
                         show: false,
                     }, () => {
-                        // tooltips 隐藏了，触发 hide 事件 
+                        // tooltips 隐藏了，触发 hide 事件
                         this.triggerEvent('hide', {}, {})
                     })
                 }, this.data.delay)
@@ -66,4 +66,4 @@ Component({
             })
         }
     }
-})
+});

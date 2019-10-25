@@ -31,4 +31,4 @@ Component({
   },
   data: {
   },
-})
+});

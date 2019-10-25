@@ -112,4 +112,4 @@ Component({
       console.log('transitiion end')
     }
   }
-})
+});

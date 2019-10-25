@@ -28,4 +28,4 @@ Component({
             this.triggerEvent('change', {index, item: this.data.list[index]})
         }
     }
-})
+});

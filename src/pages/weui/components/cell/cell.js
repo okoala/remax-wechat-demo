@@ -101,7 +101,7 @@ Component({
             })
         },
         navigateTo() {
-            const data:any = this.data
+            const data = this.data
             if (data.url && data.link) {
                 wx.navigateTo({
                     url: data.url,
@@ -115,4 +115,4 @@ Component({
             }
         }
     }
-})
+});

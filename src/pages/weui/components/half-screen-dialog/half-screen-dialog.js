@@ -62,4 +62,4 @@ Component({
         this.triggerEvent('buttontap', {index, item: this.data.buttons[index]}, {})
       },
     }
-})
+});

@@ -80,4 +80,4 @@ Component<any>({
             this.triggerEvent('change', {value: this.data.value, checked: this.data.checked})
         }
     }
-})
+});

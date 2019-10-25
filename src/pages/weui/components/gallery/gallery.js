@@ -66,8 +66,8 @@ Component({
                 this.setData({
                     show: false
                 })
-                this.triggerEvent('hide', {}, {}) 
+                this.triggerEvent('hide', {}, {})
             }
         }
     }
-})
+});

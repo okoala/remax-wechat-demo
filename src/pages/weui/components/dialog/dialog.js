@@ -64,4 +64,4 @@ Component({
     },
     stopEvent() {}
   }
-})
+});

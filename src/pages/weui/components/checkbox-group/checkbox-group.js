@@ -102,4 +102,4 @@ Component({
             return multi
         }
     }
-})
+});

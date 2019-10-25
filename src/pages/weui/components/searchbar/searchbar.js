@@ -118,4 +118,4 @@ Component({
             this.triggerEvent('selectresult', {index, item})
         }
     }
-})
+});

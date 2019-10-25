@@ -29,4 +29,4 @@ Component({
   data: {
     firstItem: null
   },
-})
+});

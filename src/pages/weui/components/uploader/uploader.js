@@ -162,4 +162,4 @@ Component({
             this.triggerEvent('delete', {index, item: file[0]})
         }
     }
-})
+});
