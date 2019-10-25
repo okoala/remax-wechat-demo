@@ -1,0 +1,40 @@
+page {
+  background-color: #ffffff;
+}
+
+image {
+  margin: 4px 0;
+}
+
+.article {
+  padding: 24px 16px;
+    padding:24px calc(16px ~"+ constant(safe-area-inset-right)") calc(24px ~"+ constant(safe-area-inset-bottom)") calc(16px ~"+ constant(safe-area-inset-left)");
+    padding:24px calc(16px ~"+ env(safe-area-inset-right)") calc(24px ~"+ env(safe-area-inset-bottom)") calc(16px ~"+ env(safe-area-inset-left)");
+    font-size: 34rpx;
+    color:rgba(0,0,0,.9);
+}
+.section {
+    margin-bottom: 1.5em;
+}
+
+.h1 {
+    font-size: 44rpx;
+    font-weight:700;
+    margin-bottom: .9em;
+    line-height:1.4;
+}
+.h2 {
+    font-size: 34rpx;
+    font-weight:700;
+    margin-bottom: .34em;
+    line-height:1.4;
+}
+.h3 {
+    font-weight:700;
+    font-size: 30rpx;
+    margin-bottom: .34em;
+    line-height:1.4;
+}
+.p {
+    margin: 0 0 .8em;
+}
