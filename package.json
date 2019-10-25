@@ -17,14 +17,12 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
-    "@remax/weui": "^1.0.1-alpha.1",
     "clsx": "^1.0.4",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "remax": "^1.1.0",
     "remax-cli": "^1.1.0",
-    "rimraf": "^2.6.3",
-    "vant-weapp": "^0.5.22"
+    "rimraf": "^2.6.3"
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",
