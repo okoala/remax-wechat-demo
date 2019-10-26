@@ -35,7 +35,7 @@ Component({
     },
   },
   attached() {
-    const data: any = this.data;
+    const data = this.data;
     this.setData({
       className: data.typeClassMap[data.type] || '',
     });

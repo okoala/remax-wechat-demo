@@ -57,7 +57,7 @@ Component({
         },
         _startAnimation() {
             setTimeout(() => {
-                const data: any = this.data
+                const data = this.data
                 const animation = data.animationInstance
                 animation.height(0).step()
                 this.setData({
@@ -68,7 +68,7 @@ Component({
     },
     lifetimes: {
         attached() {
-            const data: any = this.data
+            const data = this.data
             const animationInstance = wx.createAnimation({
                 duration: data.duration,
                 timingFunction: 'ease',

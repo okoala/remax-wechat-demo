@@ -2,7 +2,7 @@ import Validator from './validator'
 import {diff} from '../utils/object'
 
 const toString = Object.prototype.toString
-const validateSingleRule = (rule: any, value, param = null, models = null) => {
+const validateSingleRule = (rule, value, param = null, models = null) => {
     let message = ''
     for (const ruleKey in rule) {
         if (ruleKey === 'name' || ruleKey === 'message') continue

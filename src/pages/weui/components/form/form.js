@@ -78,7 +78,7 @@ Component({
             // 这个必须在前面
             this.formValidator.setModel(newVal)
             this.isInit = true
-            const diffObj: any = diffObject(oldVal, newVal)
+            const diffObj = diffObject(oldVal, newVal)
             if (diffObj) {
                 let isValid = true
                 const errors = []

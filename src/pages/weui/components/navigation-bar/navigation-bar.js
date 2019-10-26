@@ -93,7 +93,7 @@ Component({
       });
     },
     back() {
-      const data: any = this.data;
+      const data = this.data;
       wx.navigateBack({
         delta: data.delta,
       });

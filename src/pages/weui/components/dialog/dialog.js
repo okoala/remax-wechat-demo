@@ -63,7 +63,7 @@ Component({
       );
     },
     close() {
-      const data: any = this.data;
+      const data = this.data;
       if (!data.maskClosable) return;
       this.setData({
         show: false,

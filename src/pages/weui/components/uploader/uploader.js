@@ -174,7 +174,7 @@ Component({
               });
           }
         },
-        fail: (fail: any) => {
+        fail: (fail) => {
           if (fail.errMsg.indexOf('chooseImage:fail cancel') >= 0) {
             this.triggerEvent('cancel', {}, {});
             return;

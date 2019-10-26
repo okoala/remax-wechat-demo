@@ -109,7 +109,7 @@ module.exports = {
     // "pages/cloud/scf-openapi/scf-openapi",
     // "pages/cloud/doc-web-view/doc-web-view",
     "pages/weui/index",
-    // "pages/weui/cell/cell",
+    "pages/weui/pages/cell/index",
     // "pages/weui/slideview/slideview",
     // "pages/weui/form/form",
     // "pages/weui/uploader/uploader",
