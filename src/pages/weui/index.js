@@ -79,8 +79,8 @@ export default class extends React.Component {
       <MainLayout>
         <Header
           align="left"
-          title="小程序UI组件库"
-          desc="小程序UI组件库是基于WeUI封装的组件库，是一套同微信原生视觉体验一致的组件库，由微信官方设计团队和小程序团队为微信小程序量身设计，令用户的使用感知更加统一。"
+          title="小程序 UI 组件库"
+          desc="小程序 UI 组件库是基于WeUI封装的组件库，是一套同微信原生视觉体验一致的组件库，由微信官方设计团队和小程序团队为微信小程序量身设计，令用户的使用感知更加统一。"
         />
         <KindList list={list} />
       </MainLayout>
