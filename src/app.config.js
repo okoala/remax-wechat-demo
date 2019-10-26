@@ -110,7 +110,7 @@ module.exports = {
     // "pages/cloud/doc-web-view/doc-web-view",
     "pages/weui/index",
     "pages/weui/pages/cell/index",
-    // "pages/weui/slideview/slideview",
+    "pages/weui/pages/slideview/index",
     // "pages/weui/form/form",
     // "pages/weui/uploader/uploader",
     "pages/weui/pages/article/index",
