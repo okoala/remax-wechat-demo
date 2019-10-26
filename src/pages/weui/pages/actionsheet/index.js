@@ -2,7 +2,7 @@ import * as React from 'react';
 import { View, Text, Button, showActionSheet } from 'remax/wechat';
 import MainLayout from '@/layout/MainLayout';
 import Header from '@/components/Header';
-import ActionSheet from '../../components/actionsheet/actionsheet';
+import ActionSheet from '../../components/actionsheet';
 import Icon from '../../components/icon/icon';
 import styles from './index.module.less';
 
