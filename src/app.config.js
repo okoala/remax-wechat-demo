@@ -115,7 +115,7 @@ module.exports = {
     // "pages/weui/uploader/uploader",
     "pages/weui/pages/article/index",
     "pages/weui/pages/badge/index",
-    // "pages/weui/flex/flex",
+    "pages/weui/pages/flex/index",
     // "pages/weui/footer/footer",
     // "pages/weui/gallery/gallery",
     // "pages/weui/grid/grid",
