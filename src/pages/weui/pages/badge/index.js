@@ -2,16 +2,12 @@ import * as React from 'react';
 import { View, Image } from 'remax/wechat';
 import MainLayout from '@/layout/MainLayout';
 import Header from '@/components/Header';
-import Cell from 'weui-miniprogram/miniprogram_dist/cell/cell';
-import Cells from 'weui-miniprogram/miniprogram_dist/cells/cells';
-import Badge from 'weui-miniprogram/miniprogram_dist/badge/badge';
+import Cell from '../../components/cell/cell';
+import Cells from '../../components/cells/cells';
+import Badge from '../../components/badge/badge';
 
 import styles from './index.module.less';
 import img from '../../images/pic_160.png';
-
-console.log('-Cell--', Cell)
-console.log('-Cells--', Cells)
-console.log('-Badge--', Badge)
 
 export default class extends React.Component {
   render() {
