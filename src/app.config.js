@@ -123,7 +123,7 @@ module.exports = {
     // "pages/weui/loading/loading",
     // "pages/weui/panel/panel",
     // "pages/weui/preview/preview",
-    // "pages/weui/dialog/dialog",
+    "pages/weui/pages/dialog/index",
     // "pages/weui/msg/msg",
     // "pages/weui/msg/msg_text",
     // "pages/weui/msg/msg_text_primary",
