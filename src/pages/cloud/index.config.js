@@ -1,3 +1,3 @@
 module.exports = {
-  navigationBarTitleText: "小程序云开发展示"
+  navigationBarTitleText: "Remax • 小程序云开发展示"
 };

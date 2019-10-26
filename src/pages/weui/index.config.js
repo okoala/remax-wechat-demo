@@ -1,3 +1,3 @@
 module.exports = {
-  navigationBarTitleText: "小程序 UI 组件库"
+  navigationBarTitleText: "Remax • 小程序 UI 组件库"
 };
