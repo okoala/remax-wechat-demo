@@ -21,7 +21,7 @@ $ yarn dev
 ## 发布
 
 ```bash
-$ npm run build
+$ yarn build
 ```
 
 使用微信小程序开发者工具上传版本。
