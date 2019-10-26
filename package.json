@@ -22,7 +22,8 @@
     "react": "^16.8.6",
     "remax": "^1.1.0",
     "remax-cli": "^1.1.0",
-    "rimraf": "^2.6.3"
+    "rimraf": "^2.6.3",
+    "weui-miniprogram": "^0.2.0"
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",
