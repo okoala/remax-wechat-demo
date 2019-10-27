@@ -118,7 +118,7 @@ module.exports = {
     "pages/weui/pages/flex/index",
     "pages/weui/pages/footer/index",
     "pages/weui/pages/gallery/index",
-    // "pages/weui/grid/grid",
+    "pages/weui/pages/grid/index",
     // "pages/weui/loadmore/loadmore",
     // "pages/weui/loading/loading",
     // "pages/weui/panel/panel",
