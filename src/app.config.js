@@ -122,7 +122,7 @@ module.exports = {
     "pages/weui/pages/loadmore/index",
     "pages/weui/pages/loading/index",
     "pages/weui/pages/panel/index",
-    // "pages/weui/preview/preview",
+    "pages/weui/pages/preview/index",
     "pages/weui/pages/dialog/index",
     // "pages/weui/msg/msg",
     // "pages/weui/msg/msg_text",
