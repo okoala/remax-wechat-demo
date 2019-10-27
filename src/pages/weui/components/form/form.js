@@ -155,5 +155,3 @@ Component({
         }
     }
 });
-
-export default FormValidator

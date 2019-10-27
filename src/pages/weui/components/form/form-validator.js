@@ -18,9 +18,6 @@ const validateSingleRule = (rule, value, param = null, models = null) => {
     return message
 }
 class FormValidator {
-    models: {}
-    rules: {}
-    errors: {}
     constructor(models, rules) {
         this.models = models
         this.rules = rules

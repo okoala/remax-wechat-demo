@@ -111,7 +111,7 @@ module.exports = {
     "pages/weui/index",
     "pages/weui/pages/cell/index",
     "pages/weui/pages/slideview/index",
-    // "pages/weui/form/form",
+    "pages/weui/pages/form/index",
     // "pages/weui/uploader/uploader",
     "pages/weui/pages/article/index",
     "pages/weui/pages/badge/index",
