@@ -121,7 +121,7 @@ module.exports = {
     "pages/weui/pages/grid/index",
     "pages/weui/pages/loadmore/index",
     "pages/weui/pages/loading/index",
-    // "pages/weui/panel/panel",
+    "pages/weui/pages/panel/index",
     // "pages/weui/preview/preview",
     "pages/weui/pages/dialog/index",
     // "pages/weui/msg/msg",
