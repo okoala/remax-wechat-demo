@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, Image } from 'remax/wechat';
-import MainLayout from '@/layout/MainLayout';
+
 import Header from '@/components/Header';
 import Cell from '../../components/cell/cell';
 import Cells from '../../components/cells/cells';
@@ -12,7 +12,7 @@ import img from '../../images/pic_160.png';
 export default class extends React.Component {
   render() {
     return (
-      <MainLayout>
+      <View>
         <Header title="Badge" desc="徽章" align="left" />
         <View>
           <Cells title="新消息提示跟摘要信息后，统一在列表右侧">
@@ -42,7 +42,7 @@ export default class extends React.Component {
             </Cell>
           </Cells>
         </View>
-      </MainLayout>
+      </View>
     );
   }
 }

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, Image, Navigator, navigateTo } from 'remax/wechat';
-import MainLayout from '@/layout/MainLayout';
+
 import KindList from '@/components/KindList';
 import Header from '@/components/Header';
 import SetTabBar from './components/SetTabBar';
@@ -321,7 +321,7 @@ export default class extends React.Component {
     }
 
     return (
-      <MainLayout>
+      <View>
         <Header
           logo={logoImg}
           desc={
@@ -337,8 +337,10 @@ export default class extends React.Component {
             </>
           }
         />
-        <KindList list={list} onEnter={this.enterSetTabBarPage} />
-      </MainLayout>
+        <View className={styles.bd}>
+          <KindList list={list} onEnter={this.enterSetTabBarPage} />
+        </View>
+      </View>
     );
   }
 }

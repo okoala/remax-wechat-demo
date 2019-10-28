@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, Navigator, Image } from 'remax/wechat';
-import MainLayout from '@/layout/MainLayout';
+
 import Header from '@/components/Header';
 
 import tabbarImg from '../../images/icon_tabbar.png';
@@ -13,7 +13,7 @@ export default class extends React.Component {
   render() {
     const { grids } = this.state;
     return (
-      <MainLayout>
+      <View>
         <Header title="Grid" desc="九宫格" align="left" />
         <View className="page__bd">
           <View className="weui-grids">
@@ -30,7 +30,7 @@ export default class extends React.Component {
             ))}
           </View>
         </View>
-      </MainLayout>
+      </View>
     );
   }
 }

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, Navigator, Image } from 'remax/wechat';
-import MainLayout from '@/layout/MainLayout';
+
 import Header from '@/components/Header';
 import styles from './index.module.less';
 
@@ -34,7 +34,7 @@ export default class extends React.Component {
   render() {
     const { animated } = this.state;
     return (
-      <MainLayout>
+      <View>
         <Header title="Loading" desc="加载中" align="left" />
         <view class="page__bd">
           <Loading show type="circle" />
@@ -47,7 +47,7 @@ export default class extends React.Component {
           />
           <Loading show type="dot-white" extClass={styles.demo1} />
         </view>
-      </MainLayout>
+      </View>
     );
   }
 }

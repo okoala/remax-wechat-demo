@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { View, Navigator } from 'remax/wechat';
-import MainLayout from '@/layout/MainLayout';
+
 import Header from '@/components/Header';
 import styles from './index.module.less';
 
 export default class extends React.Component {
   render() {
     return (
-      <MainLayout>
+      <View>
         <Header title="PreView" desc="表单预览" align="left" />
         <View className="page__bd">
           <View className="weui-form-preview">
@@ -80,7 +80,7 @@ export default class extends React.Component {
             </View>
           </View>
         </View>
-      </MainLayout>
+      </View>
     );
   }
 }

@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { Navigator } from 'remax/wechat';
-import MainLayout from '@/layout/MainLayout';
+import { View, Navigator } from 'remax/wechat';
+
 import KindList from '@/components/KindList';
 import Header from '@/components/Header';
 
@@ -104,7 +104,7 @@ const list = [
 export default class extends React.Component {
   render() {
     return (
-      <MainLayout>
+      <View>
         <Header
           logo={componentImg}
           desc={
@@ -120,8 +120,10 @@ export default class extends React.Component {
             </>
           }
         />
-        <KindList list={list} />
-      </MainLayout>
+        <View className={styles.bd}>
+          <KindList list={list} />
+        </View>
+      </View>
     );
   }
 }

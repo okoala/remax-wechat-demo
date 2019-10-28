@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, Button } from 'remax/wechat';
-import MainLayout from '@/layout/MainLayout';
+
 import Header from '@/components/Header';
 import Dialog from '../../components/dialog/dialog';
 import styles from './index.module.less';
@@ -34,7 +34,7 @@ export default class extends React.Component {
 
   render() {
     return (
-      <MainLayout>
+      <View>
         <Header title="Dialog" desc="对话框" align="left" />
         <View className="page__bd">
           <View className="weui-btn-area">
@@ -66,7 +66,7 @@ export default class extends React.Component {
         >
           <View>test content1</View>
         </Dialog>
-      </MainLayout>
+      </View>
     );
   }
 }

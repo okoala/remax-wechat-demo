@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, Text, Button, showActionSheet } from 'remax/wechat';
-import MainLayout from '@/layout/MainLayout';
+
 import Header from '@/components/Header';
 import ActionSheet from '../../components/actionsheet/actionsheet';
 import Icon from '../../components/icon/icon';
@@ -47,7 +47,7 @@ export default class extends React.Component {
     const { groups } = this.state;
 
     return (
-      <MainLayout>
+      <View>
         <View>
           <Header title="ActionSheet" desc="弹出式菜单" align="left" />
           <View className="weui-btn-area">
@@ -71,7 +71,7 @@ export default class extends React.Component {
             </View>
           </ActionSheet>
         </View>
-      </MainLayout>
+      </View>
     );
   }
 }

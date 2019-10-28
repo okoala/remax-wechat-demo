@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View } from 'remax/wechat';
-import MainLayout from '@/layout/MainLayout';
+
 import Header from '@/components/Header';
 import Slideview from '../../components/slideview/slideview';
 import Cell from '../../components/cell/cell';
@@ -41,7 +41,7 @@ export default class extends React.Component {
   render() {
     const { slideButtons } = this.state;
     return (
-      <MainLayout>
+      <View>
         <Header title="Slideview" desc="左滑操作" align="left" />
         <View className="page__bd">
           <View className="weui-cells">
@@ -64,7 +64,7 @@ export default class extends React.Component {
             </Slideview>
           </View>
         </View>
-      </MainLayout>
+      </View>
     );
   }
 }

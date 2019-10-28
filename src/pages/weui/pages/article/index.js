@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, Image } from 'remax/wechat';
-import MainLayout from '@/layout/MainLayout';
+
 import Header from '@/components/Header';
 import styles from './index.module.less';
 
@@ -9,7 +9,7 @@ import articleImg from '../../images/pic_article.png';
 export default class extends React.Component {
   render() {
     return (
-      <MainLayout>
+      <View>
         <Header title="Article" desc="文章" align="left" />
         <View className={styles.article}>
           <View className={styles.h1}>大标题</View>
@@ -50,7 +50,7 @@ export default class extends React.Component {
             </View>
           </View>
         </View>
-      </MainLayout>
+      </View>
     );
   }
 }

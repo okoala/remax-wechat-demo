@@ -1,7 +1,9 @@
 import * as React from 'react';
-import MainLayout from '@/layout/MainLayout';
+import { View } from 'remax/wechat';
+
 import KindList from '@/components/KindList';
 import Header from '@/components/Header';
+import styles from './index.module.less';
 
 import formImg from './images/icon_nav_form.png';
 import widgetImg from './images/icon_nav_widget.png';
@@ -76,14 +78,16 @@ const list = [
 export default class extends React.Component {
   render() {
     return (
-      <MainLayout>
+      <View>
         <Header
           align="left"
           title="小程序 UI 组件库"
           desc="小程序 UI 组件库是基于WeUI封装的组件库，是一套同微信原生视觉体验一致的组件库，由微信官方设计团队和小程序团队为微信小程序量身设计，令用户的使用感知更加统一。"
         />
-        <KindList list={list} />
-      </MainLayout>
+        <View className={styles.bd}>
+          <KindList list={list} />
+        </View>
+      </View>
     );
   }
 }

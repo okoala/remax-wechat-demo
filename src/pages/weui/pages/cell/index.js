@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, Image } from 'remax/wechat';
-import MainLayout from '@/layout/MainLayout';
+
 import Header from '@/components/Header';
 import Cells from '../../components/cells/cells';
 import Cell from '../../components/cell/cell';
@@ -41,7 +41,7 @@ export default class extends React.Component {
 
   render() {
     return (
-      <MainLayout>
+      <View>
         <Header title="Cell" desc="列表" align="left" />
         <View>
           <Cells extClass="my-cells" title="带说明的列表项">
@@ -110,7 +110,7 @@ export default class extends React.Component {
             </Cell>
           </Cells>
         </View>
-      </MainLayout>
+      </View>
     );
   }
 }

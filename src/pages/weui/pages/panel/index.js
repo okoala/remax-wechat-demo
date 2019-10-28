@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, Image, Navigator } from 'remax/wechat';
-import MainLayout from '@/layout/MainLayout';
+
 import Header from '@/components/Header';
 import styles from './index.module.less';
 import base64 from '../../images/base64';
@@ -15,7 +15,7 @@ export default class extends React.Component {
     const { icon20, icon60 } = this.state;
 
     return (
-      <MainLayout>
+      <View>
         <Header title="Panel" desc="面板" align="left" />
         <View className="page__bd">
           <View className="weui-panel weui-panel_access">
@@ -148,7 +148,7 @@ export default class extends React.Component {
             </View>
           </View>
         </View>
-      </MainLayout>
+      </View>
     );
   }
 }

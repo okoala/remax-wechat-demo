@@ -1,5 +1,5 @@
 import * as React from 'react';
-import MainLayout from '@/layout/MainLayout';
+
 import Header from '@/components/Header';
 import Gallery from '../../components/gallery/gallery';
 
@@ -34,7 +34,7 @@ export default class extends React.Component {
   render() {
     const { show, imgUrls } = this.state;
     return (
-      <MainLayout>
+      <View>
         <Header
           title="Gallery"
           desc="画廊，类似原生的wx.previewImage的展示。"
@@ -49,7 +49,7 @@ export default class extends React.Component {
           hideOnClick={true}
           current="1"
         ></Gallery>
-      </MainLayout>
+      </View>
     );
   }
 }
